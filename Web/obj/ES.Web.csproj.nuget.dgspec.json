@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\AP\\elasticsearchdemo-master\\Web\\ES.Web.csproj": {}
+  },
+  "projects": {
+    "d:\\AP\\elasticsearchdemo-master\\ES.Business\\ES.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\AP\\elasticsearchdemo-master\\ES.Business\\ES.Business.csproj",
+        "projectName": "ES.Business",
+        "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Business\\ES.Business.csproj",
+        "packagesPath": "C:\\Users\\ccytw\\.nuget\\packages\\",
+        "outputPath": "d:\\AP\\elasticsearchdemo-master\\ES.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccytw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "d:\\AP\\elasticsearchdemo-master\\ES.Core\\ES.Core.csproj": {
+                "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Core\\ES.Core.csproj"
+              },
+              "d:\\AP\\elasticsearchdemo-master\\ES.Models\\ES.Models.csproj": {
+                "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Models\\ES.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.14.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\AP\\elasticsearchdemo-master\\ES.Core\\ES.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\AP\\elasticsearchdemo-master\\ES.Core\\ES.Core.csproj",
+        "projectName": "ES.Core",
+        "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Core\\ES.Core.csproj",
+        "packagesPath": "C:\\Users\\ccytw\\.nuget\\packages\\",
+        "outputPath": "d:\\AP\\elasticsearchdemo-master\\ES.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccytw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\AP\\elasticsearchdemo-master\\ES.Models\\ES.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\AP\\elasticsearchdemo-master\\ES.Models\\ES.Models.csproj",
+        "projectName": "ES.Models",
+        "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Models\\ES.Models.csproj",
+        "packagesPath": "C:\\Users\\ccytw\\.nuget\\packages\\",
+        "outputPath": "d:\\AP\\elasticsearchdemo-master\\ES.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccytw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\AP\\elasticsearchdemo-master\\ES.Util\\ES.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\AP\\elasticsearchdemo-master\\ES.Util\\ES.Util.csproj",
+        "projectName": "ES.Util",
+        "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Util\\ES.Util.csproj",
+        "packagesPath": "C:\\Users\\ccytw\\.nuget\\packages\\",
+        "outputPath": "d:\\AP\\elasticsearchdemo-master\\ES.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccytw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\AP\\elasticsearchdemo-master\\Web\\ES.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\AP\\elasticsearchdemo-master\\Web\\ES.Web.csproj",
+        "projectName": "ES.Web",
+        "projectPath": "d:\\AP\\elasticsearchdemo-master\\Web\\ES.Web.csproj",
+        "packagesPath": "C:\\Users\\ccytw\\.nuget\\packages\\",
+        "outputPath": "d:\\AP\\elasticsearchdemo-master\\Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccytw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "d:\\AP\\elasticsearchdemo-master\\ES.Business\\ES.Business.csproj": {
+                "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Business\\ES.Business.csproj"
+              },
+              "d:\\AP\\elasticsearchdemo-master\\ES.Core\\ES.Core.csproj": {
+                "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Core\\ES.Core.csproj"
+              },
+              "d:\\AP\\elasticsearchdemo-master\\ES.Models\\ES.Models.csproj": {
+                "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Models\\ES.Models.csproj"
+              },
+              "d:\\AP\\elasticsearchdemo-master\\ES.Util\\ES.Util.csproj": {
+                "projectPath": "d:\\AP\\elasticsearchdemo-master\\ES.Util\\ES.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AspectCore.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.14.1, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
